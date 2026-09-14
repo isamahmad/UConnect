@@ -1,0 +1,987 @@
+{
+ "settings/general": {
+  "baseCurrency": "GBP",
+  "fx": {
+   "GBP": 1,
+   "USD": 0.74,
+   "EUR": 0.85,
+   "CHF": 0.92,
+   "AED": 0.2,
+   "SAR": 0.197,
+   "QAR": 0.203,
+   "KWD": 2.42,
+   "SGD": 0.575,
+   "HKD": 0.095,
+   "JPY": 0.005,
+   "INR": 0.0086,
+   "CAD": 0.54,
+   "AUD": 0.49
+  },
+  "cadence": {
+   "A": 30,
+   "B": 60,
+   "C": 120
+  },
+  "stallDays": 21
+ },
+ "contacts/cx_layla": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Layla",
+  "lastName": "Haddad",
+  "fullName": "Layla Haddad",
+  "organisation": "Halden Family Office (Example)",
+  "title": "Chief Investment Officer",
+  "contactType": "Single family office",
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "assetClasses": [
+   "Private Equity",
+   "Real Estate"
+  ],
+  "subStrategies": [
+   "Growth equity",
+   "Buyout",
+   "Logistics"
+  ],
+  "sectors": [
+   "Healthcare",
+   "Logistics"
+  ],
+  "regions": [
+   "UK & Ireland",
+   "Europe",
+   "GCC"
+  ],
+  "ticketMin": 5000000,
+  "ticketMax": 20000000,
+  "ticketCurrency": "USD",
+  "aum": 1200000000,
+  "aumCurrency": "USD",
+  "structures": [
+   "Co-investments",
+   "Direct deals"
+  ],
+  "leadPref": "Follow",
+  "strength": 4,
+  "tier": "A",
+  "channel": "WhatsApp",
+  "gatekeeper": "Rania (EA), via office line",
+  "lastContacted": "2026-09-02",
+  "notes": "Prefers minority growth stakes alongside a lead sponsor. Investment committee meets monthly; decisions take about six weeks.",
+  "log": {
+   "luv9poa8": {
+    "type": "meeting",
+    "date": "2026-09-02",
+    "summary": "Dinner in Dubai. Keen on UK urban logistics and healthcare services. Wants to see Atlas IM.",
+    "byName": "Example",
+    "at": 1788374883930
+   }
+  }
+ },
+ "contacts/cx_oliver": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Oliver",
+  "lastName": "Pemberton",
+  "fullName": "Oliver Pemberton",
+  "organisation": "Pemberton & Rowe Wealth (Example)",
+  "title": "Head of Private Markets",
+  "contactType": "Private bank / Wealth manager",
+  "city": "London",
+  "country": "United Kingdom",
+  "assetClasses": [
+   "Private Equity",
+   "Private Credit"
+  ],
+  "subStrategies": [
+   "Co-investment",
+   "Direct lending"
+  ],
+  "sectors": [
+   "Generalist"
+  ],
+  "regions": [
+   "UK & Ireland",
+   "Europe"
+  ],
+  "ticketMin": 1000000,
+  "ticketMax": 5000000,
+  "ticketCurrency": "GBP",
+  "structures": [
+   "Club deals",
+   "SPVs"
+  ],
+  "strength": 3,
+  "tier": "B",
+  "channel": "Email",
+  "lastContacted": "2026-08-02",
+  "notes": "Aggregates client money into SPVs. Needs a clean one-page summary for his clients."
+ },
+ "contacts/cx_aisha": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Aisha",
+  "lastName": "Rahman",
+  "fullName": "Aisha Rahman",
+  "organisation": "Noor Capital Partners (Example)",
+  "title": "Managing Director",
+  "contactType": "Single family office",
+  "city": "Riyadh",
+  "country": "Saudi Arabia",
+  "assetClasses": [
+   "Private Equity",
+   "Real Estate"
+  ],
+  "subStrategies": [
+   "Buyout",
+   "Logistics",
+   "Commercial / Office"
+  ],
+  "sectors": [
+   "Logistics",
+   "Real assets",
+   "Healthcare"
+  ],
+  "regions": [
+   "GCC",
+   "UK & Ireland"
+  ],
+  "ticketMin": 10000000,
+  "ticketMax": 50000000,
+  "ticketCurrency": "USD",
+  "constraints": [
+   "Sharia-compliant only"
+  ],
+  "structures": [
+   "Direct deals",
+   "Club deals"
+  ],
+  "strength": 3,
+  "tier": "A",
+  "languages": "Arabic, English",
+  "lastContacted": "2026-08-21",
+  "notes": "All investments must be Sharia-compliant; comfortable with ijara structures on real estate."
+ },
+ "contacts/cx_henrik": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Henrik",
+  "lastName": "Dahl",
+  "fullName": "Henrik Dahl",
+  "organisation": "Nordvik Pension (Example)",
+  "title": "Portfolio Manager, Real Assets",
+  "contactType": "Pension fund",
+  "city": "Oslo",
+  "country": "Norway",
+  "assetClasses": [
+   "Infrastructure",
+   "Private Credit"
+  ],
+  "subStrategies": [
+   "Energy transition",
+   "Direct lending"
+  ],
+  "sectors": [
+   "Energy & Climate"
+  ],
+  "regions": [
+   "Europe",
+   "UK & Ireland"
+  ],
+  "ticketMin": 20000000,
+  "ticketMax": 100000000,
+  "ticketCurrency": "EUR",
+  "constraints": [
+   "ESG / impact mandate"
+  ],
+  "structures": [
+   "Fund commitments",
+   "Co-investments"
+  ],
+  "strength": 2,
+  "tier": "B",
+  "lastContacted": "2026-06-28",
+  "notes": "Article 9 funds only for new commitments."
+ },
+ "contacts/cx_priya": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Priya",
+  "lastName": "Menon",
+  "fullName": "Priya Menon",
+  "organisation": "Meridian Multi-Family Office (Example)",
+  "title": "Partner",
+  "contactType": "Multi-family office",
+  "city": "Singapore",
+  "country": "Singapore",
+  "assetClasses": [
+   "Venture Capital",
+   "Private Equity"
+  ],
+  "subStrategies": [
+   "Series A",
+   "Series B",
+   "Growth equity"
+  ],
+  "sectors": [
+   "Technology",
+   "Fintech",
+   "Healthcare"
+  ],
+  "regions": [
+   "Southeast Asia",
+   "South Asia",
+   "UK & Ireland"
+  ],
+  "ticketMin": 2000000,
+  "ticketMax": 10000000,
+  "ticketCurrency": "USD",
+  "structures": [
+   "Co-investments",
+   "Direct deals"
+  ],
+  "leadPref": "Co-lead",
+  "strength": 4,
+  "tier": "A",
+  "lastContacted": "2026-09-05",
+  "notes": "Represents five families. Strong interest in UK healthtech after exiting a diagnostics deal."
+ },
+ "contacts/cx_james": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "James",
+  "lastName": "Whitfield",
+  "fullName": "James Whitfield",
+  "organisation": "Whitfield Angel Syndicate (Example)",
+  "title": "Syndicate Lead",
+  "contactType": "Angel / Syndicate lead",
+  "city": "London",
+  "country": "United Kingdom",
+  "assetClasses": [
+   "Venture Capital"
+  ],
+  "subStrategies": [
+   "Pre-seed / Seed",
+   "Series A"
+  ],
+  "sectors": [
+   "Technology",
+   "Fintech",
+   "Healthcare"
+  ],
+  "regions": [
+   "UK & Ireland"
+  ],
+  "ticketMin": 250000,
+  "ticketMax": 1000000,
+  "ticketCurrency": "GBP",
+  "constraints": [
+   "UK EIS/SEIS"
+  ],
+  "strength": 5,
+  "tier": "A",
+  "lastContacted": "2026-09-08",
+  "notes": "Can mobilise 40+ angels in two weeks. Prefers EIS-eligible rounds."
+ },
+ "contacts/cx_sofia": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Sofia",
+  "lastName": "Marchetti",
+  "fullName": "Sofia Marchetti",
+  "organisation": "Marchetti Holding (Example)",
+  "title": "Director",
+  "contactType": "Single family office",
+  "city": "Milan",
+  "country": "Italy",
+  "assetClasses": [
+   "Real Estate",
+   "Private Equity"
+  ],
+  "subStrategies": [
+   "Hospitality",
+   "Residential",
+   "Buyout"
+  ],
+  "sectors": [
+   "Hospitality",
+   "Consumer",
+   "Logistics"
+  ],
+  "regions": [
+   "Europe",
+   "UK & Ireland"
+  ],
+  "ticketMin": 5000000,
+  "ticketMax": 25000000,
+  "ticketCurrency": "EUR",
+  "strength": 3,
+  "tier": "B",
+  "lastContacted": "2026-08-24",
+  "notes": "Third-generation family office; values sponsor track record over headline IRR."
+ },
+ "contacts/cx_daniel": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Daniel",
+  "lastName": "Okafor",
+  "fullName": "Daniel Okafor",
+  "organisation": "Lagos Growth Partners (Example)",
+  "title": "Founding Partner",
+  "contactType": "Fund manager (GP)",
+  "city": "Lagos",
+  "country": "Nigeria",
+  "assetClasses": [
+   "Private Equity",
+   "Venture Capital"
+  ],
+  "subStrategies": [
+   "Growth equity",
+   "Series A"
+  ],
+  "sectors": [
+   "Fintech",
+   "Consumer"
+  ],
+  "regions": [
+   "Sub-Saharan Africa"
+  ],
+  "ticketMin": 1000000,
+  "ticketMax": 5000000,
+  "ticketCurrency": "USD",
+  "strength": 2,
+  "tier": "C",
+  "lastContacted": "2026-05-14"
+ },
+ "contacts/cx_charlotte": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Charlotte",
+  "lastName": "Ashby",
+  "fullName": "Charlotte Ashby",
+  "organisation": "Ashby Endowment Trust (Example)",
+  "title": "Head of Investments",
+  "contactType": "Endowment / Foundation",
+  "city": "Cambridge",
+  "country": "United Kingdom",
+  "assetClasses": [
+   "Private Equity",
+   "Infrastructure"
+  ],
+  "subStrategies": [
+   "Secondaries",
+   "Social infrastructure"
+  ],
+  "sectors": [
+   "Education",
+   "Healthcare",
+   "Energy & Climate"
+  ],
+  "regions": [
+   "UK & Ireland",
+   "Europe",
+   "Global"
+  ],
+  "ticketMin": 10000000,
+  "ticketMax": 40000000,
+  "ticketCurrency": "GBP",
+  "constraints": [
+   "ESG / impact mandate"
+  ],
+  "structures": [
+   "Fund commitments",
+   "Secondaries"
+  ],
+  "strength": 2,
+  "tier": "B",
+  "lastContacted": "2026-07-23",
+  "notes": "Fund commitments only, no direct real estate."
+ },
+ "contacts/cx_khalid": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Khalid",
+  "lastName": "Al-Mansoori",
+  "fullName": "Khalid Al-Mansoori",
+  "organisation": "Al-Mansoori Investments (Example)",
+  "title": "Principal",
+  "contactType": "HNWI / Private investor",
+  "city": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "assetClasses": [
+   "Real Estate",
+   "Private Equity"
+  ],
+  "subStrategies": [
+   "Logistics",
+   "Commercial / Office",
+   "Growth equity"
+  ],
+  "sectors": [
+   "Logistics",
+   "Real assets"
+  ],
+  "regions": [
+   "UK & Ireland",
+   "Europe"
+  ],
+  "ticketMin": 3000000,
+  "ticketMax": 15000000,
+  "ticketCurrency": "USD",
+  "structures": [
+   "Direct deals",
+   "Club deals"
+  ],
+  "strength": 4,
+  "tier": "A",
+  "channel": "Phone",
+  "lastContacted": "2026-08-30",
+  "notes": "Owns two UK distribution parks already; wants income-producing logistics with inflation-linked leases."
+ },
+ "contacts/cx_meilin": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Mei Lin",
+  "lastName": "Tan",
+  "fullName": "Mei Lin Tan",
+  "organisation": "Harbourline Insurance (Example)",
+  "title": "Director, Alternatives",
+  "contactType": "Insurance company",
+  "city": "Hong Kong",
+  "country": "Hong Kong",
+  "assetClasses": [
+   "Private Credit",
+   "Infrastructure"
+  ],
+  "subStrategies": [
+   "Direct lending",
+   "Asset-backed",
+   "Digital infrastructure"
+  ],
+  "sectors": [
+   "Real assets",
+   "Financial services"
+  ],
+  "regions": [
+   "Global"
+  ],
+  "ticketMin": 25000000,
+  "ticketMax": 100000000,
+  "ticketCurrency": "USD",
+  "structures": [
+   "Fund commitments",
+   "Co-investments"
+  ],
+  "strength": 2,
+  "tier": "B",
+  "lastContacted": "2026-07-08"
+ },
+ "contacts/cx_robert": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Robert",
+  "lastName": "Hale",
+  "fullName": "Robert Hale",
+  "organisation": "Hale Capital Co-invest Club (Example)",
+  "title": "Chairman",
+  "contactType": "Angel / Syndicate lead",
+  "city": "New York",
+  "country": "United States",
+  "assetClasses": [
+   "Private Equity"
+  ],
+  "subStrategies": [
+   "Buyout",
+   "Co-investment"
+  ],
+  "sectors": [
+   "Business services",
+   "Industrials"
+  ],
+  "regions": [
+   "North America",
+   "UK & Ireland"
+  ],
+  "ticketMin": 2000000,
+  "ticketMax": 8000000,
+  "ticketCurrency": "USD",
+  "structures": [
+   "Co-investments",
+   "Club deals"
+  ],
+  "strength": 3,
+  "tier": "B",
+  "lastContacted": "2026-08-12"
+ },
+ "contacts/cx_fatima": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Fatima",
+  "lastName": "Qureshi",
+  "fullName": "Fatima Qureshi",
+  "organisation": "Crescent Wealth Advisers (Example)",
+  "title": "Senior Adviser",
+  "contactType": "Private bank / Wealth manager",
+  "city": "London",
+  "country": "United Kingdom",
+  "assetClasses": [
+   "Private Equity",
+   "Real Estate"
+  ],
+  "subStrategies": [
+   "Residential",
+   "Student / BTR"
+  ],
+  "sectors": [
+   "Real assets",
+   "Education"
+  ],
+  "regions": [
+   "UK & Ireland",
+   "GCC",
+   "South Asia"
+  ],
+  "ticketMin": 1000000,
+  "ticketMax": 5000000,
+  "ticketCurrency": "GBP",
+  "constraints": [
+   "Sharia-compliant only"
+  ],
+  "strength": 3,
+  "tier": "B",
+  "languages": "English, Urdu",
+  "lastContacted": "2026-08-16"
+ },
+ "contacts/cx_thomas": {
+  "example": true,
+  "tags": [
+   "Example"
+  ],
+  "lawfulBasis": "Legitimate interest",
+  "source": "Example data",
+  "createdAt": 1789152483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "firstName": "Thomas",
+  "lastName": "Becker",
+  "fullName": "Thomas Becker",
+  "organisation": "Becker Familienholding (Example)",
+  "title": "Managing Partner",
+  "contactType": "Single family office",
+  "city": "Munich",
+  "country": "Germany",
+  "assetClasses": [
+   "Private Equity"
+  ],
+  "subStrategies": [
+   "Buyout",
+   "Minority stakes"
+  ],
+  "sectors": [
+   "Industrials",
+   "Healthcare"
+  ],
+  "regions": [
+   "Europe"
+  ],
+  "ticketMin": 10000000,
+  "ticketMax": 30000000,
+  "ticketCurrency": "EUR",
+  "strength": 1,
+  "tier": "A",
+  "lastContacted": "2026-06-08",
+  "notes": "Met once at a Frankfurt conference. Worth rebuilding."
+ },
+ "deals/dx_atlas": {
+  "example": true,
+  "name": "Project Atlas (Example)",
+  "type": "Placement (fee-based)",
+  "status": "Live",
+  "assetClass": "Real Estate",
+  "subStrategy": "Logistics",
+  "instrument": "Equity",
+  "sectors": [
+   "Logistics",
+   "Real assets"
+  ],
+  "regions": [
+   "UK & Ireland"
+  ],
+  "target": 45000000,
+  "currency": "GBP",
+  "minTicket": 2000000,
+  "closeDate": "2026-12-15",
+  "sponsor": "Example Logistics Partners",
+  "feePct": 1.5,
+  "feeBasis": "of capital placed, paid at close",
+  "summary": "Portfolio of six urban logistics warehouses around the M25 and Midlands, 94% let on inflation-linked leases. Seven-year hold.",
+  "highlights": "Target net IRR 13-15%. Cash yield 6.5%. Sponsor has completed 11 logistics exits.",
+  "createdAt": 1786560483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "pipeline": {
+   "cx_layla": {
+    "stage": "Diligence",
+    "currency": "GBP",
+    "addedAt": 1788029283930,
+    "stageAt": 1788461283930,
+    "addedBy": "system",
+    "hist": {
+     "hafgle6": {
+      "stage": "Diligence",
+      "at": 1788461283930,
+      "by": "system"
+     }
+    },
+    "indicated": 6000000,
+    "nextStep": "Site visit, Daventry",
+    "nextDate": "2026-09-15"
+   },
+   "cx_khalid": {
+    "stage": "In discussion",
+    "currency": "GBP",
+    "addedAt": 1787683683930,
+    "stageAt": 1788115683930,
+    "addedBy": "system",
+    "hist": {
+     "hicg9m7": {
+      "stage": "In discussion",
+      "at": 1788115683930,
+      "by": "system"
+     }
+    },
+    "indicated": 5000000,
+    "nextStep": "Send IM",
+    "nextDate": "2026-09-09"
+   },
+   "cx_oliver": {
+    "stage": "Prospect",
+    "currency": "GBP",
+    "addedAt": 1788461283930,
+    "stageAt": 1788893283930,
+    "addedBy": "system",
+    "hist": {
+     "h2igllk": {
+      "stage": "Prospect",
+      "at": 1788893283930,
+      "by": "system"
+     }
+    }
+   },
+   "cx_sofia": {
+    "stage": "In discussion",
+    "currency": "GBP",
+    "addedAt": 1787424483930,
+    "stageAt": 1787856483930,
+    "addedBy": "system",
+    "hist": {
+     "h1cicff": {
+      "stage": "In discussion",
+      "at": 1787856483930,
+      "by": "system"
+     }
+    },
+    "indicated": 4000000,
+    "nextStep": "Call with sponsor",
+    "nextDate": "2026-09-17"
+   },
+   "cx_charlotte": {
+    "stage": "Passed",
+    "currency": "GBP",
+    "addedAt": 1786992483930,
+    "stageAt": 1787424483930,
+    "addedBy": "system",
+    "hist": {
+     "hj27f66": {
+      "stage": "Passed",
+      "at": 1787424483930,
+      "by": "system"
+     }
+    },
+    "passReason": "Outside mandate"
+   },
+   "cx_aisha": {
+    "stage": "Committed",
+    "currency": "GBP",
+    "addedAt": 1788374883930,
+    "stageAt": 1788806883930,
+    "addedBy": "system",
+    "hist": {
+     "hooyygk": {
+      "stage": "Committed",
+      "at": 1788806883930,
+      "by": "system"
+     }
+    },
+    "indicated": 8000000,
+    "committed": 7000000,
+    "nextStep": "Subscription docs",
+    "nextDate": "2026-09-21"
+   }
+  }
+ },
+ "deals/dx_helix": {
+  "example": true,
+  "name": "Helix Health Growth Round (Example)",
+  "type": "Co-invest / Syndication",
+  "status": "Live",
+  "assetClass": "Private Equity",
+  "subStrategy": "Growth equity",
+  "instrument": "Preferred equity",
+  "sectors": [
+   "Healthcare",
+   "Technology"
+  ],
+  "regions": [
+   "UK & Ireland",
+   "Europe"
+  ],
+  "target": 20000000,
+  "currency": "GBP",
+  "minTicket": 500000,
+  "closeDate": "2026-11-30",
+  "sponsor": "Example Health Ventures",
+  "feePct": 2,
+  "feeBasis": "of capital placed",
+  "summary": "Series C growth round for a UK remote-diagnostics platform with NHS and private-payer contracts. Profitable at EBITDA level.",
+  "highlights": "Revenue \u00a338m, growing 60% a year. Existing lead investor taking \u00a38m.",
+  "createdAt": 1785264483930,
+  "createdBy": "system",
+  "updatedAt": 1789152483930,
+  "updatedBy": "system",
+  "pipeline": {
+   "cx_priya": {
+    "stage": "In discussion",
+    "currency": "GBP",
+    "addedAt": 1788202083930,
+    "stageAt": 1788634083930,
+    "addedBy": "system",
+    "hist": {
+     "h5amvgu": {
+      "stage": "In discussion",
+      "at": 1788634083930,
+      "by": "system"
+     }
+    },
+    "indicated": 3000000,
+    "nextStep": "Management call",
+    "nextDate": "2026-09-11"
+   },
+   "cx_james": {
+    "stage": "Committed",
+    "currency": "GBP",
+    "addedAt": 1788547683930,
+    "stageAt": 1788979683930,
+    "addedBy": "system",
+    "hist": {
+     "hk0z29r": {
+      "stage": "Committed",
+      "at": 1788979683930,
+      "by": "system"
+     }
+    },
+    "indicated": 1000000,
+    "committed": 750000
+   },
+   "cx_layla": {
+    "stage": "Prospect",
+    "currency": "GBP",
+    "addedAt": 1788634083930,
+    "stageAt": 1789066083930,
+    "addedBy": "system",
+    "hist": {
+     "h6dqh46": {
+      "stage": "Prospect",
+      "at": 1789066083930,
+      "by": "system"
+     }
+    }
+   },
+   "cx_thomas": {
+    "stage": "Prospect",
+    "currency": "GBP",
+    "addedAt": 1785264483930,
+    "stageAt": 1785696483930,
+    "addedBy": "system",
+    "hist": {
+     "hljxkg4": {
+      "stage": "Prospect",
+      "at": 1785696483930,
+      "by": "system"
+     }
+    },
+    "nextStep": "Reintroduce"
+   }
+  }
+ },
+ "tasks/tx_1": {
+  "example": true,
+  "title": "Send Project Atlas IM to Khalid (Example)",
+  "due": "2026-09-10",
+  "priority": "High",
+  "contactId": "cx_khalid",
+  "dealId": "dx_atlas",
+  "done": false,
+  "createdAt": 1789152483930,
+  "createdBy": "system"
+ },
+ "tasks/tx_2": {
+  "example": true,
+  "title": "Book Daventry site visit for Layla (Example)",
+  "due": "2026-09-14",
+  "priority": "Normal",
+  "contactId": "cx_layla",
+  "dealId": "dx_atlas",
+  "done": false,
+  "createdAt": 1789152483930,
+  "createdBy": "system"
+ },
+ "tasks/tx_3": {
+  "example": true,
+  "title": "Follow up Helix management call with Priya (Example)",
+  "due": "2026-09-11",
+  "priority": "Normal",
+  "contactId": "cx_priya",
+  "dealId": "dx_helix",
+  "done": false,
+  "createdAt": 1789152483930,
+  "createdBy": "system"
+ },
+ "intros/ix_1": {
+  "example": true,
+  "date": "2026-08-12",
+  "direction": "We introduced (fee receivable)",
+  "contactId": "cx_aisha",
+  "dealId": "dx_atlas",
+  "agreement": "Signed",
+  "feePct": 1.5,
+  "currency": "GBP",
+  "status": "Not yet due",
+  "notes": "Fee letter signed with sponsor.",
+  "createdAt": 1789152483930,
+  "createdBy": "system"
+ },
+ "intros/ix_2": {
+  "example": true,
+  "date": "2026-08-22",
+  "direction": "Introduced to us (fee payable)",
+  "introducerText": "Mark Ellis (Example)",
+  "contactId": "cx_priya",
+  "dealId": "dx_helix",
+  "agreement": "Verbal",
+  "feePct": 0.5,
+  "currency": "GBP",
+  "status": "Not yet due",
+  "notes": "Agree finder's fee in writing before close.",
+  "createdAt": 1789152483930,
+  "createdBy": "system"
+ },
+ "_generatedAt": 1789155216093
+}

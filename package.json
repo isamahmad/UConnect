@@ -1,0 +1,12 @@
+{
+  "name": "uconnect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UConnect: private investor relationship platform (Vercel + Neon Postgres)",
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  }
+}
